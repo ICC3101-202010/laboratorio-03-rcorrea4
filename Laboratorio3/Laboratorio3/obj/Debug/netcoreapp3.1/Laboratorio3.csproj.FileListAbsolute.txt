@@ -1,0 +1,13 @@
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\bin\Debug\netcoreapp3.1\Laboratorio3.exe
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\bin\Debug\netcoreapp3.1\Laboratorio3.deps.json
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\bin\Debug\netcoreapp3.1\Laboratorio3.runtimeconfig.json
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\bin\Debug\netcoreapp3.1\Laboratorio3.runtimeconfig.dev.json
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\bin\Debug\netcoreapp3.1\Laboratorio3.dll
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\bin\Debug\netcoreapp3.1\Laboratorio3.pdb
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.csprojAssemblyReference.cache
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.csproj.CoreCompileInputs.cache
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.AssemblyInfoInputs.cache
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.AssemblyInfo.cs
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.dll
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.pdb
+C:\Users\corre\OneDrive\Escritorio\P.O.O. 20-01\laboratorio-03-rcorrea4\Laboratorio3\Laboratorio3\obj\Debug\netcoreapp3.1\Laboratorio3.genruntimeconfig.cache
