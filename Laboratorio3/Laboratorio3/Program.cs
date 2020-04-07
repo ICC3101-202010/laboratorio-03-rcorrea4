@@ -14,6 +14,7 @@ namespace Laboratorio3
             Producto[] vectorProductos=null;
             Trabajador trabajador1=null;
             Persona persona1=null;
+            Compra compra = new Compra(persona1, trabajador1, vectorProductos, DateTime.Now);
             while (opt != "6")
             {
 
@@ -153,6 +154,18 @@ namespace Laboratorio3
                             Console.WriteLine(persona1.Country);
 
                         }
+                        Console.WriteLine("Total:");
+                        int ii = 0;
+                        int total = 0;
+                        while (ii < vectorProductos.Length)
+                        {
+                            total += vectorProductos[ii].Price;
+                            ii++;
+                        }
+                        Console.WriteLine(total);
+                        
+
+
                        
 
                         break;
@@ -160,6 +173,9 @@ namespace Laboratorio3
                     case "5":
                         break;
                     case "6":
+                        break;
+                    default:
+                        Console.WriteLine("Opcion Invalida");
                         break;
                 }
                
