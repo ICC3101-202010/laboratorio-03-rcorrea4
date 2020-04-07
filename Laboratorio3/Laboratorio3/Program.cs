@@ -11,6 +11,9 @@ namespace Laboratorio3
             Console.WriteLine("Bienvenido al Supermercado");
 
             string opt = null;
+            Producto[] vectorProductos=null;
+            Trabajador trabajador1=null;
+            Persona persona1=null;
             while (opt != "6")
             {
 
@@ -53,6 +56,7 @@ namespace Laboratorio3
                             vectProductos[i] = objProducto;
                             i++;
                         }
+                        vectorProductos = vectProductos;
                         break;
 
                     case "2":
@@ -63,8 +67,97 @@ namespace Laboratorio3
                         nE = Console.ReadLine();
                         Console.WriteLine("Apellido");
                         lnE = Console.ReadLine();
+                        Console.WriteLine("Nacimineto");
+                        bE = Console.ReadLine();
+                        Console.WriteLine("Pais");
+                        cE = Console.ReadLine();
+                        Console.WriteLine("Cargo");
+                        chE = Console.ReadLine();
+                        Console.WriteLine("Rut");
+                        rE = Console.ReadLine();
+                        Console.WriteLine("Horario");
+                        hE = Console.ReadLine();
+                        Console.WriteLine("Salario");
+                        sE = int.Parse(Console.ReadLine());
+                        Trabajador trabajador = new Trabajador(nE, lnE, rE, bE, cE, chE, sE, hE);
+                        trabajador1 = trabajador;
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Ingrese Cliente");
+                        string nC, lnC, bC, cC, rC;
+                        
+                        Console.WriteLine("Nombre");
+                        nC = Console.ReadLine();
+                        Console.WriteLine("Apellido");
+                        lnC = Console.ReadLine();
+                        Console.WriteLine("Nacimineto");
+                        bC = Console.ReadLine();
+                        Console.WriteLine("Pais");
+                        cC = Console.ReadLine();
+                        Console.WriteLine("Rut");
+                        rC = Console.ReadLine();
+                        Persona cliente = new Persona(nC,lnC,rC,bC,cC);
+                        persona1 = cliente;
+                        break;
+
+                    case "4":
+                        Console.WriteLine("Productos:");
+                        
+                        if (vectorProductos == null)
+                        {
+                            Console.WriteLine("No Hay Productos");
+                        }
+                        else
+                        {
+                            int f = 0;
+                            while (f < vectorProductos.Length)
+                            {
+                                Console.WriteLine("Producto"+(f+1));
+                                Console.WriteLine(vectorProductos[f].NameP);
+                                Console.WriteLine(vectorProductos[f].Brand);
+                                Console.WriteLine(vectorProductos[f].Price);
+                                Console.WriteLine(vectorProductos[f].Stock);
+                                Console.WriteLine(vectorProductos[f].Id);
+                                f++;
+                            }
+
+                        }
+                        if (trabajador1 == null)
+                        {
+                            Console.WriteLine("No Hay Empleado");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Empleado:");
+                            Console.WriteLine(trabajador1.Name);
+                            Console.WriteLine(trabajador1.LastName);
+                            Console.WriteLine(trabajador1.Rut);
+                            Console.WriteLine(trabajador1.Birth);
+                            Console.WriteLine(trabajador1.Country);
+                            Console.WriteLine(trabajador1.charge);
+                            Console.WriteLine(trabajador1.salary);
+                            Console.WriteLine(trabajador1.horario);
+                        }
+                        if (persona1 == null)
+                        {
+                            Console.WriteLine("No hay cliente");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Cliente");
+                            Console.WriteLine(persona1.Name);
+                            Console.WriteLine(persona1.LastName);
+                            Console.WriteLine(persona1.Rut);
+                            Console.WriteLine(persona1.Birth);
+                            Console.WriteLine(persona1.Country);
+
+                        }
+                       
+
                         break;
                 }
+               
 
             }
 
